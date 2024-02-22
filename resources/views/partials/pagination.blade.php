@@ -1,0 +1,1 @@
+{{ $pokemonsPaginated->links() }}
