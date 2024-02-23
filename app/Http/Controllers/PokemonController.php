@@ -187,7 +187,7 @@ class PokemonController extends Controller {
     /**
      * Obtiene la cadena de evolución de la especie de Pokémon.
      *
-     * @param string $url
+     * @param string $url # https://pokeapi.co/api/v2/evolution-chain/{id}
      * @return View|array Una vista con respuesta HTTP o un array con el detalle de la evolución.
      */
     public function getPokemonChainByUrl(string $url): View|array {
