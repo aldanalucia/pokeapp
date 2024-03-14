@@ -28,11 +28,6 @@ class PokemonController extends Controller {
     protected string $msg_internal_server_error = 'Error interno';
     protected string $msg_exception = 'Error en la solicitud';
 
-    public function __construct() {
-
-        $this->getPokemonList();
-    }
-
     /**
      * Realiza una búsqueda de Pokémon basada en una coincidencia con el nombre proporcionado en la solicitud.
      *
